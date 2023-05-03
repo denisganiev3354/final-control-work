@@ -10,6 +10,8 @@ string[] array2;
 
 array2 = SortArrayMoreThree(array1);
 
+
+
 string[] SortArrayMoreThree(string[] array)
 {
 	int countRightNumber = 0;
@@ -36,4 +38,17 @@ string[] SortArrayMoreThree(string[] array)
 	}
 
 	return newArray;
+}
+
+void PrintArray(string[] array)
+{
+    int i;
+    Console.Write("[");
+    for (i = 0; i < array.Length - 1; i++)
+    {
+        Console.Write($"\"{array[i]}\"" + ", ");
+    }
+    Console.Write($"\"{array[i]}\"");
+    Console.Write("]");
+
 }
