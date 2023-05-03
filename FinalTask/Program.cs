@@ -15,7 +15,6 @@ Console.Write(" -> ");
 PrintArray(array2);
 Console.WriteLine();
 
-
 string[] SortArrayMoreThree(string[] array)
 {
 	int countRightNumber = 0;
