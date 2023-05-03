@@ -10,6 +10,10 @@ string[] array2;
 
 array2 = SortArrayMoreThree(array1);
 
+PrintArray(array1);
+Console.Write(" -> ");
+PrintArray(array2);
+Console.WriteLine();
 
 
 string[] SortArrayMoreThree(string[] array)
