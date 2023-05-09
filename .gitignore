@@ -77,10 +77,10 @@ StyleCopReport.xml
 *_h.h
 *.ilk
 *.meta
-*.obj
+*.FinalTask\obj
 *.Debug
 *.net7.0
-*.bin
+*.FinalTask\bin
 *.iobj
 *.pch
 *.pdb
