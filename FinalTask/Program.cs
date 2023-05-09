@@ -5,7 +5,7 @@
 При решение не рекомендуется пользоваться коллекциями, лучше обойтись исключительно массивами.
 */
 
-string[] array1 = new string[0] { "Hello", "ips", "1567", "Hi", "Kazan", "a" };
+string[] array1 = new string[] { "Hello", "ips", "1567", "Hi", "Kazan", "a" };
 string[] array2;
 
 array2 = SortArrayMoreThree(array1);
