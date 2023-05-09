@@ -78,6 +78,9 @@ StyleCopReport.xml
 *.ilk
 *.meta
 *.obj
+*.Debug
+*.net7.0
+*.bin
 *.iobj
 *.pch
 *.pdb
