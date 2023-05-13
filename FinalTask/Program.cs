@@ -18,10 +18,10 @@ Console.WriteLine();
 string[] SortArrayMoreThree(string[] array)
 {
 	int countRightNumber = 0;
-
+	int n = 3;
 	for (int i = 0; i < array.Length; i++)
 	{
-		if (array[i].Length <= 3)
+		if (array[i].Length <= n)
 		{
 			countRightNumber++;
 		}
@@ -33,7 +33,7 @@ string[] SortArrayMoreThree(string[] array)
 
 	for (int i = 0; i < array1.Length; i++)
 	{
-		if (array[i].Length <= 3)
+		if (array[i].Length <= n)
 		{
 			newArray[tempCounter] = array[i];
 			tempCounter++;
